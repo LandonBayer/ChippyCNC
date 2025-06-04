@@ -39,10 +39,28 @@ Time spent: 45 Minutes
 
 Most of this past week, I've been busy with the end of the school year, but I still took some time to get together all the parts I currently have and what needs to be purchased. To recap, I have two 400mm ball screws without nuts, four 350mm HGH15 linear rails, a RATTMMOTOR CBX 1605-200mm Z axis without a motor, and have since determined that the Arduino Mega with the Reprap RAMPS V1.4 sheild I have will not work as it is more suited for 3D printers and doesn't have the power to run a spindle. With these decisions, I am currently leaning toward [this](https://www.aliexpress.us/item/3256805662918330.html) control board, two of [these](https://www.aliexpress.us/item/3256807902881311.html) ball nuts, and finally [this](https://a.co/d/bSWRW8X) power supply and spindle combo, which I know will be compatible with the chosen control board.
 
+![parts I have][parts]
+
+[parts]: parts.jpg
+
 Of these, my biggest concern is the spindle, as it is quite small and has a high risk of lacking rigidity. I really just want this to function, so even if it is very slow or only mills soft materials, I'll be happy and can expand upon it later. The total cost for these parts is around $105, leaving me only $45 left in my budget to purchase any other components like the stepper motors, structural hardware, limit switches, wiring, and other necessary components like shaft couplers, bolts, etc. Because of this, alongside the potential for a significantly more powerful machine by spending just slightly more, I am likely going to propose my project to the $350 budget range in order to make this viable.
+
+Time spent: 1 hour (over the week)
 
 ## **6/03/2025 Log 5: Beginning Design**
 
 Given that I'm starting with many parts on hand, I'm getting 3D models of them where possible. I was able to find a model for the [spindle](https://www.thingiverse.com/thing:4856147), [linear rails](https://grabcad.com/library/hgh15ca-hgr15r-1), and [ball screw nuts](https://grabcad.com/library/sfu1204-ballscrew-nut-22mm-1). I also whipped up a model for the lead screw in Onshape using a helix curve and a sweep toolpath with a 2.5mm circle and a 5mm pitch helix. Unfortunately, this mainly leaves the Z stage without a model, of which I may need to replicate myself. To minimize the amount of CAD work to be done, I only plan to model the block (nut) on the screw, since those mounting features are the only part of the assembly that I really care about, alongside the back of it which has rails with captive nuts for mounting. With these parts accounted for, I'll now move into more modeling of the machine, based around a few design constraints: the parts I have, using 8020 for structural pieces where possible, and doing any custom parts based on 1/4" plate as I have access to it in small quantities.
 
 Separately, I've tentatively decided on [this](https://a.co/d/2pTGfU2) 3-pack of NEMA 17 stepper motors that should be compatible with the control board as well and are quite cheap at $26 for all three. I have added the associated [3D model](https://grabcad.com/library/nema-17-17he15-1504s-1) to my Onshape document as well.
+
+Time spent: 1 hour
+
+## **6/04/2025 Log 6: Base sketches**
+
+I did out some sketches in Onshape, making this as parametric as possible. I'm using some variables to name certain values like the length of my rails, ball screws, and the gap between the table and the spindle (Z-gap). I'm taking the time to think through these sizes and constraints to ensure they will propogate down correctly later on if I need to change things. I also made a small subassembly for the linear rails with limited slider mates on the blocks.
+
+![onshape][def]
+
+[def]: onsh.png
+
+Time spent: 30 minutes
