@@ -64,3 +64,25 @@ I did out some sketches in Onshape, making this as parametric as possible. I'm u
 [def]: onsh.png
 
 Time spent: 30 minutes
+
+## **6/16/2025 Log 7: More Onshape**
+
+I worked out the back of the mill, which is the X axis and will hold the Z axis on it. I'm starting very simple, with some 8020 extrusions going around and some 2x1 ones at the bottom to give me some space for the rails and ball screw on the Y axis. My main issue with this was that the 8020 featurescript in Onshape is really difficult to use, as it generates facing straight up all the time. I spent quite a while trying to figure out a workaround and eventually settled on a not-ideal but somewhat parametric way to get the lengths set in the part studio.
+
+![cncmillvertical][vert]
+
+[vert]: cncmillvertical.png
+
+Time spent: 1.5 hours
+
+## **6/17/2025 Log 8: Onshape Struggles Continue**
+
+As I build out the rest of the machine in Onshape, I am beginning to really hate the 8020 featurescript and even using it as a part in CAD. Since it has rounded corners, I cannot add mate connectors to the corners exactly and instead have to use some strange face mates to connect the pieces. After discussing these issues with another Hack Club member, he recommended I simply model the 8020 as a solid 1x1 inch box, which I will convert now before the design gets too large. This means I will basically have to re-do both the part studio and assembly, but it will make things much easier going forward. You can also see some corner braces and attachment methods being added, though they aren't completely cadded in yet. I have some small 1x1 corner brackets, large 2x2 brackets for the inside of the base, and square pieces that are meant to attach three tapped 8020 extrusions in the corners (more details to come). Let's get to the conversion!
+
+Before pic:
+
+![cncmill8020][eightytwenty]
+
+[eightytwenty]: cncmill8020.png
+
+Time spent: 1 hour
