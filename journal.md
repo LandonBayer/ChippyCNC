@@ -86,3 +86,15 @@ Before pic:
 [eightytwenty]: cncmill8020.png
 
 Time spent: 1 hour
+
+## **6/18/2025 Log 9: Onshape grind + Rethinking the machine**
+
+I'd like to touch on that rethinking part first: I was initially trying to hit the $150 price point Hack Club offers, but after reviewing the guidelines more closely, I believe this is likely to fall into the advanced $350 category. For this reason, I'm looking at possible changes to my spindle (easiest) or even to the control board, drivers and motors (harder). The spindle is a straightforward upgrade with the same controller up to a 500W spindle, which makes it an ideal easy solution. However, the main limiting factor at this point would be the stepper motors I'm using to drive the whole machine, which are limited to 2 amps of maximum current based on the A4988 drivers the control board has. If I choose a different control board without integrated drivers, I could increase the power of those drivers up to 4A or higher, giving me room to put on larger stepper motors that will make the machine run much better. I will be continuing to consider this option as I move forward with the design, as it should not be heavily reliant on this choice.
+
+As for Onshape, now comes the time to re-do all the 8020 extrusions to be simple boxes for ease of design. Here is what it looks like after:
+
+![cncmillbox][box]
+
+[box]: cncmillbox.png
+
+Naturally, after doing all of this, I began rethinking my work from the start. I'm now realizing it could be easier for the operator (myself) to use if the bed is completely stationary and the spindle moves in XYZ, much like a typical cnc router. I will also be considering this as I continue working, and might create a branch in Onshape to test this out if it appears to be desirable. I am still unsure how this would complicate or simplify my ability to move each axis with the ball screws, which I am yet to figure out exactly in either design. I may replace some 8020 sections with 1/4" sheet aluminum milled to my specifications (on the router I have access to). This is likely to be more expensive, but may produce better end results.
