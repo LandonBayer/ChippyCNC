@@ -114,3 +114,13 @@ As you can see, I got around to creating a 3D model of my [Z axis](https://a.co/
 [prog]: cncmillprogress.png
 
 Time spent: 3 hours (honestly much more but let's just count 3)
+
+## **6/20/2025 Log 11: Keeping it Moving**
+
+I redid the front and back again to use smaller milled plates, though I may even make the back a single piece of extrusion as it isn't entirely needed. I got around to creating models for the spindle and the clamp it comes with, which will need some kind of adaptor plate to the Z axis. I'm getting relatively close to a point where I can begin ordering parts (aka submitting to HC), so I'm super excited for that! The major tasks that remain are the X axis power, creating various mounting plates and adaptors, and sorting out smaller details like modeling in bolts where needed, adding shaft collars to the motors to connect the ball screws, etc. I already have most of my plans sorted out for the controls and such, which aren't currently modeled as it doesn't really make a functional difference just yet. Here's the progress photo for today:
+
+![cncmillalmostdone][almost]
+
+[almost]: cncmillalmostdone.png
+
+Time spent: 1.5 hours
