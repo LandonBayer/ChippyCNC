@@ -98,3 +98,19 @@ As for Onshape, now comes the time to re-do all the 8020 extrusions to be simple
 [box]: cncmillbox.png
 
 Naturally, after doing all of this, I began rethinking my work from the start. I'm now realizing it could be easier for the operator (myself) to use if the bed is completely stationary and the spindle moves in XYZ, much like a typical cnc router. I will also be considering this as I continue working, and might create a branch in Onshape to test this out if it appears to be desirable. I am still unsure how this would complicate or simplify my ability to move each axis with the ball screws, which I am yet to figure out exactly in either design. I may replace some 8020 sections with 1/4" sheet aluminum milled to my specifications (on the router I have access to). This is likely to be more expensive, but may produce better end results.
+
+Time spent: 1 hour
+
+## **6/19/2025 Log 10: Big progress**
+
+Today I really locked in on cad and got a lot done, fixing many issues and continuing the design phase. After much thought, I stuck with the bedslinger style of kinematics (XZ on the head, Y on the bed), but realized that the XZ section must be centered on the mill to reach all of the millable area. I also replaced the front and back of the machine with 1/4" aluminum plate that I will mill out, simplifying the design by allowing me to easily mount the motor that drives the Y axis (pictured in the grey motor below). That said, I'll probably re-do it again to have a smaller mounting plate because that one is massive and impractical.
+
+I continued at sorting out the core kinematics, first by adding some 40-1620 8020 extrusion as a bed to the printer. My hope is that this will make it easy to clamp parts and add a spoilboard on top. The main downside is cost, at a whopping $60 for the build plate pictured. I will keep in consideration another spoilboard mounting solution as well as possibly some way to add a machining vice for larger 3D milling operations (possibly a way to detach the bed and add a vice directly to the linear rails?)
+
+As you can see, I got around to creating a 3D model of my [Z axis](https://a.co/d/2vU4E41) to continue figuring out my placement for the spindle motor and X axis power. In an ideal world, the X axis ball screw could run between the rails, just behind the Z axis assembly to increase rigidity. Doing so may require some kind of custom motor mounting plate, which is certainly fine within the scope of this project.
+
+![cncmillprogress][prog]
+
+[prog]: cncmillprogress.png
+
+Time spent: 3 hours (honestly much more but let's just count 3)
