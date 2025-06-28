@@ -124,3 +124,27 @@ I redid the front and back again to use smaller milled plates, though I may even
 [almost]: cncmillalmostdone.png
 
 Time spent: 1.5 hours
+
+## **6/27/2025 Log 12: Tidying Up Loose Ends**
+
+This log will cover the small pieces I've been doing over the course of that last week (I've been busy so it's all clumped together). First, I found that I can buy ball nut housings for quite cheap, giving me a strong aluminum connecting piece for X and Y power. However, the threads they come with don't match perfectly with my other parts so some adaptor plates were made too. Here's one of them on the X axis power:
+
+![cncmillxpowerplate][powerplatex]
+
+[powerplatex]: cncmillxpowerplate.png
+
+The pockets are countersinks for the bolts going into the block, while the holes above and below are for the slots on the Z axis. 
+
+I also made some plates to mount the X axis rails to the Z axis, which are nice and simple: they keep the two carraige blocks close as to minimize any reduction in travel distance while also maintaining rigidity. I will do the same for the Y axis soon. Here's what those look like:
+
+![cncmillxlinearrailplate][linearrailx]
+
+[linearrailx]: cncmillxlinearrailplate.png
+
+Here's what the full assembly looks like at the moment (note: the X axis motor plate is modeled but not in the assembly yet):
+
+![cncmillfullassemblyupdate][fullassembupd]
+
+[fullassembupd]: cncmillfullassemblyupdate.png
+
+Of course, there are still many small pieces to figure out! One big thing is changing out the bed: I want to change it from that extrusion (very expensive for what it is imo) to a simple spoilboard (which I need anyway). This way, I can simply have holes drilled to bolt directly to the linear rails and the ball screw (no adaptor plates), as well as some kind of hole-based clamping system [like this one](https://youtu.be/O-rqf4uSXRE?si=c4zoKhAtzv9de5E1). I also need to 3D printed end stops to the rails, 3DP parts with bearings to hold the ends of the ball screws, and some other final touches. Looking forward to finishing this off!
