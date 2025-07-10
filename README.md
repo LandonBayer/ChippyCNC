@@ -1,2 +1,4 @@
-# CNCMillFromRandomStuff
-For Hack Club Highway, attempting to design a CNC machine based off some parts I already have (linear rails, a ball screw, etc)
+# Chippy
+CNC Mills are expensive, large, and generally not very accessible to the average maker in their home. With Chippy, a small, simple, cheap but powerful CNC router, these capabilities may become available to the hobbiest at a relatively low price. Unlike the commonly found [3018-style](https://a.co/d/4NDyeWJ) cnc, which is a respectable $150 but fails to do anything more than engraving, Chippy boasts linear rails rather than guides, ball screws in place of lead screws, a 500W ER16 spindle, and an extrusion frame to maximize performance. Even the similarly priced Lunyee [3018-pro](https://a.co/d/8d0D7FV) still uses guides and lead screws in place of high quality parts, making Chippy a more compelling DIY package.
+
+I personally had a lot of experience using CNC machines through my robotics team, where I regularly ran an [Omio X8-2200L](https://www.omiocnc.com/products/x8-series/x8-2200l-usb-cnc-desktop-engraver.html) to manufacture parts. Using that experience, I designed Chippy to best compromise performance, ease of use, and reliability in the ways I sought throughout the build seasons.
