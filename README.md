@@ -31,3 +31,26 @@ Specs:
 
 [BOM Link](https://docs.google.com/spreadsheets/d/1udPoCN8MQFdChB4r3Y68Km0VLGHvW1hfCCyUqifvbzs/edit?usp=sharing)
 
+| ITEM | PRICE | QUANTITY | TOTAL PRICE | SOURCE | Ordered | Owned | LINK |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mainboard | 19.57 | 1 | 19.57 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256805662918330.html |
+| 22mm ball screw nut | 9.88 | 2 | 19.76 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256806764030684.html |
+| ball screw nut mounting block | 4.76 | 2 | 9.52 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/2255800872193882.html |
+| Daedalus CNC Spindle Motor Kit, 500w, ER16, Brushed | 99.99 | 1 | 99.99 | Amazon | FALSE | FALSE | https://a.co/d/ilFF7XH |
+| 24V 8A power supply (for steppers + control) | 16.99 | 1 | 16.99 | Amazon | FALSE | FALSE | https://a.co/d/3KXWlDU |
+| Nema 17 2 amp high torque stepper motors (3 pack) | 32.99 | 1 | 32.99 | Amazon | FALSE | FALSE | https://a.co/d/6JUlACn |
+| 5mmx12mm coupler (note: ideally 5x11 for me) | 4.21 | 2 | 8.42 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256805844884811.html |
+| Z touch probe | 6.42 | 1 | 6.42 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256808663692081.html |
+| 3 inch cnc vice | 44.77 | 1 | 44.77 | Amazon | FALSE | FALSE | https://a.co/d/5kOnS3H |
+| E-stop and Limit Switch Kit | 9.78 | 1 | 9.78 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256807406356837.html |
+| M4 T-nuts for the linear rails (3030 sized work for 1x1 extrusion) | 6.39 | 1 | 6.39 | Amazon | FALSE | FALSE | https://a.co/d/hFEOWDT |
+| M10 3pack 25mm pins (for clamping) | 4.9 | 2 | 9.8 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256805291847458.html |
+| 90 degree 8020 brackets + bolts (can be used in place of 2x2 ones as well) | 18.9 | 2 | 37.8 | Amazon | FALSE | TRUE | https://a.co/d/7QSxBpf |
+| Z stage (recommended 100mm, I had 200mm) | 55.98 | 1 | 55.98 | Amazon | FALSE | TRUE | https://a.co/d/2d2hLF8 |
+| 400mm ball screw (can go shorter if needed, no need to buy the nuts too) | 22.1 | 2 | 44.2 | Aliexpress | FALSE | TRUE | https://www.aliexpress.us/item/3256802936754324.html |
+| 350mm HGH15 linear rails (by far the most expensive part) | 89.92 | 2 | 179.84 | Aliexpress | FALSE | TRUE | https://www.aliexpress.us/item/3256801410951679.html |
+| 6mm shank 2mm ball NO 3D Probe | 52.35 | 1 | 52.35 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256808425022835.html |
+| (optional) Ball screw support bearings | 2.5 | 1 | 2.5 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256807384886731.html |
+|  |  | Necessary total: | 602.22 |  |  |  |  |
+|  |  | My total: | 284.4 |  |  |  |  |
+|  |  | With probe: | 339.25 |
