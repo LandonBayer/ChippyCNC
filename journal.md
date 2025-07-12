@@ -1,9 +1,10 @@
 ---
-title: "CNC Mill from Random Stuff"
+title: "Chippy CNC"
 author: "LandonBayer"
-description: "Designing and building an extremely cheap CNC mill using as many random parts I have as possible to minimize cost"
+description: "Designing and building a cheap CNC mill using as many random parts I have as possible to minimize cost"
 created_at: "2025-05-25"
 ---
+Total time spent: 20 hours
 
 ## **5/25/2025 Log 1: Initial Concepts**
 
@@ -99,7 +100,7 @@ As for Onshape, now comes the time to re-do all the 8020 extrusions to be simple
 
 Naturally, after doing all of this, I began rethinking my work from the start. I'm now realizing it could be easier for the operator (myself) to use if the bed is completely stationary and the spindle moves in XYZ, much like a typical cnc router. I will also be considering this as I continue working, and might create a branch in Onshape to test this out if it appears to be desirable. I am still unsure how this would complicate or simplify my ability to move each axis with the ball screws, which I am yet to figure out exactly in either design. I may replace some 8020 sections with 1/4" sheet aluminum milled to my specifications (on the router I have access to). This is likely to be more expensive, but may produce better end results.
 
-Time spent: 1 hour
+Time spent: 1.75 hours
 
 ## **6/19/2025 Log 10: Big progress**
 
