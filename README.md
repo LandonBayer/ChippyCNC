@@ -31,6 +31,12 @@ Specs:
 
 [BOM Link](https://docs.google.com/spreadsheets/d/1udPoCN8MQFdChB4r3Y68Km0VLGHvW1hfCCyUqifvbzs/edit?usp=sharing)
 
+Here's a rough wiring diagram of how to put this machine together, as per Hack Club requirements:
+
+![wiringdiagram][wires]
+
+[wires]: Journal-Entries/cncwiringdiagram.png
+
 | ITEM | PRICE | QUANTITY | TOTAL PRICE | SOURCE | Ordered | Owned | LINK |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Mainboard | 19.57 | 1 | 19.57 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256805662918330.html |
