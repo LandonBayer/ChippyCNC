@@ -9,7 +9,7 @@ created_at: "2025-05-25"
 
 I began by trying to figure out if this is even possible. To get my ideas flowing, I made a quick [Google doc](https://docs.google.com/document/d/1eDa18zaTmOcg4O9jXUVwCgunUB5oY8t1EJznX5E89rA/edit?usp=sharing ) with each part of the CNC as I thought of them and explained how I would fulfill that requirement: either with parts I have or links to a cheap option I could use.
 
-I set up this repo, made an [Onshape document](https://cad.onshape.com/documents/fe491084e56455da2d5a649d/w/3d810b1fec2b376e1d8655d1/e/48dd41e2a4bf65c8f3ef253b?renderMode=0&uiState=683f1efbca486b0820284a82), and my research document above. I'm doing my best to fit into the $150 price tag to avoid the extra bar for $350 funding, but I may apply for it as necessary in the future. It would certainly be a huge upgrade to the machine, but the goal is a minimum functioning product for as little as possible. 
+I set up this repo, made an [Onshape document](https://cad.onshape.com/documents/fe491084e56455da2d5a649d/w/3d810b1fec2b376e1d8655d1/e/48dd41e2a4bf65c8f3ef253b), and my research document above. I'm doing my best to fit into the $150 price tag to avoid the extra bar for $350 funding, but I may apply for it as necessary in the future. It would certainly be a huge upgrade to the machine, but the goal is a minimum functioning product for as little as possible. 
 
 I'm looking to follow a basic CNC configuration with the spindle moving in XZ and the bed in Y, much like a bedslinger 3D printer or a 3018 style CNC.  
 
@@ -41,7 +41,7 @@ Most of this past week, I've been busy with the end of the school year, but I st
 
 ![parts I have][parts]
 
-[parts]: parts.jpg
+[parts]: Journal-Entries/parts.jpg
 
 Of these, my biggest concern is the spindle, as it is quite small and has a high risk of lacking rigidity. I really just want this to function, so even if it is very slow or only mills soft materials, I'll be happy and can expand upon it later. The total cost for these parts is around $105, leaving me only $45 left in my budget to purchase any other components like the stepper motors, structural hardware, limit switches, wiring, and other necessary components like shaft couplers, bolts, etc. Because of this, alongside the potential for a significantly more powerful machine by spending just slightly more, I am likely going to propose my project to the $350 budget range in order to make this viable.
 
@@ -61,7 +61,7 @@ I did out some sketches in Onshape, making this as parametric as possible. I'm u
 
 ![onshape][def]
 
-[def]: onsh.png
+[def]: Journal-Entries/onsh.png
 
 Time spent: 30 minutes
 
@@ -71,7 +71,7 @@ I worked out the back of the mill, which is the X axis and will hold the Z axis 
 
 ![cncmillvertical][vert]
 
-[vert]: cncmillvertical.png
+[vert]: Journal-Entries/cncmillvertical.png
 
 Time spent: 1.5 hours
 
@@ -83,7 +83,7 @@ Before pic:
 
 ![cncmill8020][eightytwenty]
 
-[eightytwenty]: cncmill8020.png
+[eightytwenty]: Journal-Entries/cncmill8020.png
 
 Time spent: 1 hour
 
@@ -95,7 +95,7 @@ As for Onshape, now comes the time to re-do all the 8020 extrusions to be simple
 
 ![cncmillbox][box]
 
-[box]: cncmillbox.png
+[box]: Journal-Entries/cncmillbox.png
 
 Naturally, after doing all of this, I began rethinking my work from the start. I'm now realizing it could be easier for the operator (myself) to use if the bed is completely stationary and the spindle moves in XYZ, much like a typical cnc router. I will also be considering this as I continue working, and might create a branch in Onshape to test this out if it appears to be desirable. I am still unsure how this would complicate or simplify my ability to move each axis with the ball screws, which I am yet to figure out exactly in either design. I may replace some 8020 sections with 1/4" sheet aluminum milled to my specifications (on the router I have access to). This is likely to be more expensive, but may produce better end results.
 
@@ -111,7 +111,7 @@ As you can see, I got around to creating a 3D model of my [Z axis](https://a.co/
 
 ![cncmillprogress][prog]
 
-[prog]: cncmillprogress.png
+[prog]: Journal-Entries/cncmillprogress.png
 
 Time spent: 3 hours (honestly much more but let's just count 3)
 
@@ -121,7 +121,7 @@ I redid the front and back again to use smaller milled plates, though I may even
 
 ![cncmillalmostdone][almost]
 
-[almost]: cncmillalmostdone.png
+[almost]: Journal-Entries/cncmillalmostdone.png
 
 Time spent: 1.5 hours
 
@@ -131,7 +131,7 @@ This log will cover the small pieces I've been doing over the course of that las
 
 ![cncmillxpowerplate][powerplatex]
 
-[powerplatex]: cncmillxpowerplate.png
+[powerplatex]: Journal-Entries/cncmillxpowerplate.png
 
 The pockets are countersinks for the bolts going into the block, while the holes above and below are for the slots on the Z axis. 
 
@@ -139,12 +139,31 @@ I also made some plates to mount the X axis rails to the Z axis, which are nice 
 
 ![cncmillxlinearrailplate][linearrailx]
 
-[linearrailx]: cncmillxlinearrailplate.png
+[linearrailx]: Journal-Entries/cncmillxlinearrailplate.png
 
 Here's what the full assembly looks like at the moment (note: the X axis motor plate is modeled but not in the assembly yet):
 
 ![cncmillfullassemblyupdate][fullassembupd]
 
-[fullassembupd]: cncmillfullassemblyupdate.png
+[fullassembupd]: Journal-Entries/cncmillfullassemblyupdate.png
 
 Of course, there are still many small pieces to figure out! One big thing is changing out the bed: I want to change it from that extrusion (very expensive for what it is imo) to a simple spoilboard (which I need anyway). This way, I can simply have holes drilled to bolt directly to the linear rails and the ball screw (no adaptor plates), as well as some kind of hole-based clamping system [like this one](https://youtu.be/O-rqf4uSXRE?si=c4zoKhAtzv9de5E1). I also need to make 3D printed end stops to the rails, 3DP parts with bearings to hold the ends of the ball screws, and some other final touches. Looking forward to finishing this off!
+
+Time spent: 2 hours
+
+## **7/11/2025 Log 13: Final Log!**
+
+We're just about finished and ready for submission to Hack Club! First some updates since the last note:
+- Switched to the spoilboard base as planned for cost reasons
+- Re-did the colors in Onshape to look nicer and be more informative by material
+- Created the spoilboard clamping system as a clone of [Marius Hornberger's design](https://youtu.be/O-rqf4uSXRE?si=c4zoKhAtzv9de5E1), using 3D printed cam clamps (may be adjusted if too weak in the future)
+- Completed the [BOM](https://docs.google.com/spreadsheets/d/1udPoCN8MQFdChB4r3Y68Km0VLGHvW1hfCCyUqifvbzs/edit?usp=sharing) with all parts needed for construction
+
+With these, I'm calling the project done! I may need to make some minor adjustments later on as I run in to issues and such, but for the time being it's all set. Thank you for reading and to Hack Club for providing this opportunity!
+
+![finalscreenshot][final]
+
+[final]: Journal-Entries/finalcncwithclamps.png
+
+
+Time spent: 5 hours (mostly finishing BOM and writing this/the readme)

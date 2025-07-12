@@ -20,6 +20,14 @@ Specs:
 - 500 Watt 12000 RPM ER16 spindle
 - GRBL Control (outdated but will function perfectly in most scenarios)
 - High torque stepper motors on all axis
-- Option to switch between a wooden spoilboard for plate work and a machinist vice for 3D parts
+- Option to switch between a wooden spoilboard for plate work and a machinist vice for 3D parts (note: I can't find exact dimensions on the vice, so that will be added at a later date)
 - Integrated E-stop
+
+![finalscreenshot][final]
+
+[final]: Journal-Entries/finalcncwithclamps.png
+
+[Onshape Link](https://cad.onshape.com/documents/fe491084e56455da2d5a649d/w/3d810b1fec2b376e1d8655d1/e/08e152ea0122b69bfa13cece)
+
+[BOM Link](https://docs.google.com/spreadsheets/d/1udPoCN8MQFdChB4r3Y68Km0VLGHvW1hfCCyUqifvbzs/edit?usp=sharing)
 
