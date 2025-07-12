@@ -44,19 +44,26 @@ Here's a rough wiring diagram of how to put this machine together, as per Hack C
 | ball screw nut mounting block | 4.76 | 2 | 9.52 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/2255800872193882.html |
 | Daedalus CNC Spindle Motor Kit, 500w, ER16, Brushed | 99.99 | 1 | 99.99 | Amazon | FALSE | FALSE | https://a.co/d/ilFF7XH |
 | 24V 8A power supply (for steppers + control) | 16.99 | 1 | 16.99 | Amazon | FALSE | FALSE | https://a.co/d/3KXWlDU |
-| Nema 17 2 amp high torque stepper motors (3 pack) | 32.99 | 1 | 32.99 | Amazon | FALSE | FALSE | https://a.co/d/6JUlACn |
+| Nema 17 2 amp high torque stepper motors (3 pack) + wires | 32.99 | 1 | 32.99 | Amazon | FALSE | FALSE | https://a.co/d/6JUlACn |
 | 5mmx12mm coupler (note: ideally 5x11 for me) | 4.21 | 2 | 8.42 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256805844884811.html |
 | Z touch probe | 6.42 | 1 | 6.42 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256808663692081.html |
-| 3 inch cnc vice | 44.77 | 1 | 44.77 | Amazon | FALSE | FALSE | https://a.co/d/5kOnS3H |
+| 3 inch cnc vice + mounting bolts | 44.77 | 1 | 44.77 | Amazon | FALSE | FALSE | https://a.co/d/5kOnS3H |
 | E-stop and Limit Switch Kit | 9.78 | 1 | 9.78 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256807406356837.html |
 | M4 T-nuts for the linear rails (3030 sized work for 1x1 extrusion) | 6.39 | 1 | 6.39 | Amazon | FALSE | FALSE | https://a.co/d/hFEOWDT |
 | M10 3pack 25mm pins (for clamping) | 4.9 | 2 | 9.8 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256805291847458.html |
-| 90 degree 8020 brackets + bolts (can be used in place of 2x2 ones as well) | 18.9 | 2 | 37.8 | Amazon | FALSE | TRUE | https://a.co/d/7QSxBpf |
+| Assorted Metric screws (mostly for M4, I have these already) | 17.83 | 1 | 17.83 | Amazon | FALSE | TRUE | https://a.co/d/3Fa4UwA |
+| 90 degree 8020 brackets + bolts (can be used in place of 2x2 ones as well) | 18.9 | 3 | 56.7 | Amazon | FALSE | TRUE | https://a.co/d/7QSxBpf |
 | Z stage (recommended 100mm, I had 200mm) | 55.98 | 1 | 55.98 | Amazon | FALSE | TRUE | https://a.co/d/2d2hLF8 |
 | 400mm ball screw (can go shorter if needed, no need to buy the nuts too) | 22.1 | 2 | 44.2 | Aliexpress | FALSE | TRUE | https://www.aliexpress.us/item/3256802936754324.html |
 | 350mm HGH15 linear rails (by far the most expensive part) | 89.92 | 2 | 179.84 | Aliexpress | FALSE | TRUE | https://www.aliexpress.us/item/3256801410951679.html |
+| 455mm 2x1" 8020 extrusion (cut to length) | 14.51 | 3 | 43.53 | Other | FALSE | TRUE | https://8020.net/1020.html |
+| 455mm 1x1" 8020 extrusion (cut to length) | 9.5 | 2 | 19 | Other | FALSE | TRUE | https://8020.net/1010.html |
+| 190mm 2x1" 8020 extrusion (cut to length) | 7.73 | 2 | 15.46 | Other | FALSE | TRUE | https://8020.net/1020.html |
+| 404.2mm 1x1" 8020 extrusion (cut to length) | 8.76 | 2 | 17.52 | Other | FALSE | TRUE | https://8020.net/1010.html |
+| 350mm 1x1" 8020 extrusion (cut to length) | 7.97 | 2 | 15.94 | Other | FALSE | TRUE | https://8020.net/1010.html |
+| 1kg PLA Pro filament (for clamps and mounting plates if desired) | 24.99 | 1 | 24.99 | Other | FALSE | TRUE | https://us.polymaker.com/products/polylite-pla-pro?variant=39574346334265 |
 | 6mm shank 2mm ball NO 3D Probe | 52.35 | 1 | 52.35 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256808425022835.html |
 | (optional) Ball screw support bearings | 2.5 | 1 | 2.5 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256807384886731.html |
-|  |  | Necessary total: | 602.22 |  |  |  |  |
+|  |  | Necessary total: | 775.39 |  |  |  |  |
 |  |  | My total: | 284.4 |  |  |  |  |
 |  |  | With probe: | 339.25 |
