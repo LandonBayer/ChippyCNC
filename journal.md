@@ -186,4 +186,11 @@ I also began printing out some parts to check their compatibility and function, 
 
 I will soon print out a new test jig with the new clamp style and see how it fares. Hopefully all goes well! Other than refining this, I believe pretty much everything is set on the design front for now. I could add some kind of enclosure, but that's a project for another day as it definitely won't be in the budget :)  I went ahead and updated my BOM to match all my changes, and I'm looking forward to actually being done soon!
 
-Time spent: 5 hours
+P.S. the new clamp style worked!! Here it is holding another plate quite securely. That spacer block and lower travel was the trick!
+
+![clampsirlworking][clampsirlwork]
+
+[clampsirlwork]: Journal-Entries/clampsworking.jpeg
+
+
+Time spent: 6 hours

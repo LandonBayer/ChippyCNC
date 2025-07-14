@@ -25,7 +25,7 @@ Specs:
 
 ![finalscreenshot][final]
 
-[final]: Journal-Entries/finalcncwithclamps.png
+[final]: Journal-Entries/cncmillnewclamps.png
 
 [Onshape Link](https://cad.onshape.com/documents/fe491084e56455da2d5a649d/w/3d810b1fec2b376e1d8655d1/e/08e152ea0122b69bfa13cece)
 
