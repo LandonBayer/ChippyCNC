@@ -168,3 +168,22 @@ With these, I'm calling the project done! I may need to make some minor adjustme
 
 
 Time spent: 5 hours (mostly finishing BOM and writing this/the readme)
+
+## **7/12/2025 Log 14: Oops not final log**
+
+Well, I realized I was certainly not ready for my actual submission, as this has to be 100% fleshed out before review. First, I made a relatively large change to the printer by choosing to purchase ball screws as it costs a total of $20 more and my current ones don't appear to be a standard size. I don't believe it is worth the risk to buy ball screw nuts only and pray they fit the ones I have. Instead, I'll be purchasing 400mm ball screws with machined ends down to 8mm (allowing me to use 5mm to 8mm couplers), spending a bit more but preventing a possible failure of the project. This change also made the extrusions standard sizes of 450, 400, and 350mm across the board, which honestly doesn't make a huge difference as they must be bought cut or cut yourself regardless, but it's a nice addition. To touch up everything, I added 3D printable end stops to the linear rails to prevent them from falling apart, modeled in the shaft couplers, and added 3D prints and bearings to the ends of the ball screws to ensure they are supported. 
+
+![newclampsinassembly][newclamps]
+
+[newclamps]: Journal-Entries/cncmillnewclamps.png
+
+
+I also began printing out some parts to check their compatibility and function, as well as a simple test jig for my clamping method. When holding the lever, the clamp is quite strong, but it seems to naturally fall back to a rest (no force) position when letting go. Based on the video from above, the original creator mentioned that the travel on his clamps was "12mm" which is "quite a lot". Mine currently are modeled as 13.75mm of travel (a specific size based on my hole spacing, which I will change after seeing it in real life regardless), and my clamps seem to be significantly smaller overall as well. Because of this, I designed a version with significantly reduced travel distance to apply a larger force. I thought I could get away without having spacer blocks on the cam lever, but now realize that is part of what allows you to get greater pressure on the clamp. Here's a picture of how my old model looks in real life: 
+
+![clampsirl][clampsirl]
+
+[clampsirl]: Journal-Entries/clampjigirl.jpeg
+
+I will soon print out a new test jig with the new clamp style and see how it fares. Hopefully all goes well! Other than refining this, I believe pretty much everything is set on the design front for now. I could add some kind of enclosure, but that's a project for another day as it definitely won't be in the budget :)  I went ahead and updated my BOM to match all my changes, and I'm looking forward to actually being done soon!
+
+Time spent: 5 hours
