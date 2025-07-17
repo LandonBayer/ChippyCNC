@@ -4,7 +4,7 @@ author: "LandonBayer"
 description: "Designing and building a cheap CNC mill using as many random parts I have as possible to minimize cost"
 created_at: "2025-05-25"
 ---
-Total time spent: 20 hours
+Total time spent: 27 hours
 
 ## **5/25/2025 Log 1: Initial Concepts**
 
@@ -194,3 +194,21 @@ P.S. the new clamp style worked!! Here it is holding another plate quite securel
 
 
 Time spent: 6 hours
+
+## **7/17/2025 Log 15: Actual final log until revisions**
+
+I already submitted this project and am awaiting review, but I quickly added in a scaled down model of a typical CNC style vice to approximate what my real one would look like (since no dimensions were given). I did so by finding a similar looking model online and scaling it down until the hard jaw was 3 inches across, as mine would be, and just eyeballing the slot positions compared to the provided images seemed about right. I made a fixture plate to attach it so that I can switch between using the spoilboard and the vice, and added Onshape configurations to reflect this idea. Here are the two setups:
+
+Spoilboard:
+
+![spoilboardversion][spoil]
+
+[spoil]: Journal-Entries/cncmillnewclamps.png
+
+CNC vice:
+
+![viceconfiguration][vice]
+
+[vice]: Journal-Entries/cncviceconfig.png
+
+Time spent: 1 hour
