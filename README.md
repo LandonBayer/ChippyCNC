@@ -51,6 +51,7 @@ Here's a rough wiring diagram of how to put this machine together, as per Hack C
 | E-stop and Limit Switch Kit | 9.78 | 1 | 9.78 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256807406356837.html |
 | M4 T-nuts for the linear rails (3030 sized work for 1x1 extrusion) | 6.39 | 1 | 6.39 | Amazon | FALSE | FALSE | https://a.co/d/hFEOWDT |
 | M10 3pack 25mm pins (for clamping) | 4.9 | 2 | 9.8 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256805291847458.html |
+| Ball screw support bearings (10mm ID) | 3.32 | 1 | 3.32 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256808665674212.html |
 | Ball screw support bearings (8mm ID) | 2.99 | 1 | 2.99 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256805324873222.html |
 |  |  |  |  |  |  |  |  |
 | Assorted Metric screws (mostly for M4, I have these already) | 17.83 | 1 | 17.83 | Amazon | FALSE | TRUE | https://a.co/d/3Fa4UwA |
@@ -64,6 +65,6 @@ Here's a rough wiring diagram of how to put this machine together, as per Hack C
 | 350mm 1x1" 8020 extrusion (cut to length) | 7.97 | 2 | 15.94 | Other | FALSE | TRUE | https://8020.net/1010.html |
 | 1kg PLA Pro filament (for clamps and mounting plates if desired) | 24.99 | 1 | 24.99 | Other | FALSE | TRUE | https://us.polymaker.com/products/polylite-pla-pro?variant=39574346334265 |
 | 6mm shank 2mm ball NO 3D Probe | 52.35 | 1 | 52.35 | Aliexpress | FALSE | FALSE | https://www.aliexpress.us/item/3256808425022835.html |
-|  |  | Necessary total: | 756.78 |  |  |  |  |
-|  |  | My total: | 309.99 |  |  |  |  |
-|  |  | With probe: | 362.34 |
+|  |  | Necessary total: | 737.82 |  |  |  |  |
+|  |  | My total: | 310.6 |  |  |  |  |
+|  |  | With probe: | 362.95 |

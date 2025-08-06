@@ -212,3 +212,19 @@ CNC vice:
 [vice]: Journal-Entries/cncviceconfig.png
 
 Time spent: 1 hour
+
+## **8/5/2025 Log 16: Post review Log**
+
+In my review, the main concern was simply rigidity: I designed an all aluminum extrusion frame, since I simply have it, but the reviewers were concerned this may not prove rigid enough for CNC, at least in the small pieces going up to the X and Z axis. To rectify this, I added some slanted braces of extrusion and many more gussets (both off the shelf and custom) to these areas. I also combined the 3 Z axis plates on the rails and ball screw into one mega-plate, hopefully increasing the rigidity of that setup as well. The plate is still reasonably small enough to machine, which was my initial concern in doing so.
+
+The best part? All of these modifications barely increase my total, as these are also parts I have access to (the gussets and such). The bearings for the motor-side supports must be 10mm ID instead of 8mm so those have to be added on, but that should be a small cost compared to the overall machine.
+
+![front][front]
+
+[front]: Journal-Entries/cncwithbraces.png
+
+![back][back]
+
+[back]: Journal-Entries/cncgussets.png
+
+Time spent: 3 hours
