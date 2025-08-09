@@ -4,7 +4,7 @@ author: "LandonBayer"
 description: "Designing and building a cheap CNC mill using as many random parts I have as possible to minimize cost"
 created_at: "2025-05-25"
 ---
-Total time spent: 27 hours
+Total time spent: 31 hours
 
 ## **5/25/2025 Log 1: Initial Concepts**
 
@@ -228,3 +228,23 @@ The best part? All of these modifications barely increase my total, as these are
 [back]: Journal-Entries/cncgussets.png
 
 Time spent: 3 hours
+
+## **8/9/2025 Log 17: Quick post review edits (waiting for rereview)**
+
+I added in the 3D printed bearing mounts for the motor side pillow bearings, which are meant to add rigidity to the ball screws and reduce play. The parts are 3D printed, so the increase may me somewhat minimal, but something is better than nothing and ideally it will reduce the load on the motor shaft and therefore internals of the motors, making them last longer. Here are screenshots of each of the mounts (zoomed out for context): 
+
+![xbear][xbear]
+
+[xbear]: Journal-Entries/cncxbearingmount.png
+
+![ybear][ybear]
+
+[ybear]: Journal-Entries/cncybearingmount.png
+
+And a final image:
+
+![finfin][finfin]
+
+[finfin]: Journal-Entries/cncfinalwithmounts.png
+
+Time spent: 1 hour
